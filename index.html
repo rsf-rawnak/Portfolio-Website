@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rawnak Shalahen Fahim — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="regmarks"><span class="tl"></span><span class="tr"></span><span class="bl"></span><span class="br"></span></div>
+
+<header>
+  <nav>
+    <div class="logo"><a href="index.html">RSF RAWNAK</a></div>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#Business">Business</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="cv.html">CV</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Portfolio — Rev. 2026.08</div>
+          <h1>Machine Learning Engineer.<br><span class="accent">Precision Over Guesswork.</span></h1>
+          <p class="hero-sub">Md Rawnak Shalahen Fahim. Final-year CSE student at UAP, building unsupervised anomaly detection and applied NLP systems — from a thesis on CNC tool wear to text classifiers built from scratch. I also run an apparel brand on the side, but the core work is ML.</p>
+          <div class="hero-meta">
+            <div class="tag">LOCATION <b>Dhaka, BD</b></div>
+            <div class="tag">CORE FOCUS <b>ML Engineering</b></div>
+            <div class="tag">STATUS <b>Open to internships</b></div>
+          </div>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">View projects →</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo-box">
+           <img src="Photo.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-code">01</span>
+        <span class="sec-title">About</span>
+        <span class="sec-sub">PROFILE — CSE / UAP</span>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p><strong>I'm a Machine Learning Engineer</strong> — final-year Computer Science and Engineering student at the University of Asia Pacific, finishing an undergraduate thesis on unsupervised tool condition monitoring for CNC milling. FFT-based spectral features, LOF and OC-SVM anomaly detection, cross-tool threshold transferability via CORAL domain adaptation.</p>
+          <p>That's the core of what I do: building detection and classification systems where the signal isn't handed to you clean. I've applied the same mindset to NLP — a workplace harassment severity classifier, an AI-generated project detector trained across three LLM sources.</p>
+          <p>Alongside the engineering, I run <strong>WISHEND</strong>, an apparel brand I built and ship myself.</p>
+          <p>I'm looking for ML/dev internship roles where I can work on real detection and classification problems, not toy datasets.</p>
+        </div>
+        <div class="spec-table">
+          <div class="spec-row"><span class="k">Institution</span><span class="v">University of Asia Pacific</span></div>
+          <div class="spec-row"><span class="k">Program</span><span class="v">B.Sc. in CSE</span></div>
+          <div class="spec-row"><span class="k">Status</span><span class="v">Final Year</span></div>
+          <div class="spec-row"><span class="k">Thesis Defense</span><span class="v">DEC 2026</span></div>
+          <div class="spec-row"><span class="k">Base</span><span class="v">Dhaka, Bangladesh</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-code">02</span>
+      <span class="sec-title">Projects</span>
+      <span class="sec-sub">5 SHIPPED / IN PROGRESS</span>
+    </div>
+
+    <div class="proj reveal">
+      <div class="proj-top">
+        <div>
+          <div class="proj-id">PRJ-001 · THESIS</div>
+          <div class="proj-name">Unsupervised Tool Condition Monitoring for CNC Milling</div>
+        </div>
+        <div class="proj-status">Defense Dec 2026</div>
+      </div>
+      <div class="proj-body">
+        <p class="proj-desc">Detects tool wear in CNC milling using FFT-based spectral features, with Local Outlier Factor and One-Class SVM for anomaly detection. Includes cross-tool threshold transferability via CORAL domain adaptation and robust covariance estimation, evaluated against the UC Berkeley Milling Dataset.</p>
+        <div class="proj-specs">
+          <div class="proj-spec"><div class="label">Methods</div><div class="val">LOF · OC-SVM · CORAL</div></div>
+          <div class="proj-spec"><div class="label">Dataset</div><div class="val">KIT Karlsruhe Dataset</div></div>
+          <div class="proj-spec"><div class="label">Team</div><div class="val">3 · Supervised</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj reveal">
+      <div class="proj-top">
+        <div>
+          <div class="proj-id">PRJ-002 · MULTIMODAL ML</div>
+          <div class="proj-name"><a href="https://github.com/rsf-rawnak/Real-Time-Gaming-Voice-Toxicity-Detector" target="_blank" style="color:var(--cyan);">Real-Time Gaming Voice Toxicity Detector</a></div>
+        </div>
+        <div class="proj-status">92.84% accuracy</div>
+      </div>
+      <div class="proj-body">
+        <p class="proj-desc">A multimodal voice toxicity detection system for gaming, fusing Whisper speech-to-text, transformer-based text classification, Wav2Vec2 emotion recognition, and voice energy analysis into a single adaptive pipeline.</p>
+        <div class="proj-specs">
+          <div class="proj-spec"><div class="label">Stack</div><div class="val">Python · Whisper · Toxic-BERT · Wav2Vec2</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj reveal">
+      <div class="proj-top">
+        <div>
+          <div class="proj-id">PRJ-003 · PRODUCT</div>
+          <div class="proj-name"><a href="https://github.com/rsf-rawnak/Wishend-Micro-Web" target="_blank" style="color:var(--cyan);">WISHEND Micro Web</a></div>
+        </div>
+        <div class="proj-status">Offline · 58 customers served</div>
+      </div>
+      <div class="proj-body">
+        <p class="proj-desc">A functional e-commerce web app for an apparel business — product catalog, cart with size/subcategory support, automated order-confirmation emails, WhatsApp integration, and an admin dashboard. Hosted on PythonAnywhere, serving 58 real customers over 3 months of live business operation.</p>
+        <div class="proj-specs">
+          <div class="proj-spec"><div class="label">Stack</div><div class="val">Python · Flask · SQLite · Gmail SMTP</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj reveal">
+      <div class="proj-top">
+        <div>
+          <div class="proj-id">PRJ-004 · NLP</div>
+          <div class="proj-name"><a href="https://github.com/rsf-rawnak/spam-email-classifier" target="_blank" style="color:var(--cyan);">Spam Email Classifier</a></div>
+        </div>
+        <div class="proj-status">Complete</div>
+      </div>
+      <div class="proj-body">
+        <p class="proj-desc">A spam detection model using Naive Bayes and Logistic Regression on the UCI SMS dataset, with a Gradio interface that flags spam trigger words and explains the reasoning behind each prediction.</p>
+        <div class="proj-specs">
+          <div class="proj-spec"><div class="label">Stack</div><div class="val">Python · NLP · Scikit-learn · Gradio</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj reveal">
+      <div class="proj-top">
+        <div>
+          <div class="proj-id">PRJ-005 · TOOLING</div>
+          <div class="proj-name"><a href="https://github.com/rsf-rawnak/Human-vs-AI-Project-Detector" target="_blank" style="color:var(--cyan);">Human vs AI Project Detector</a></div>
+        </div>
+        <div class="proj-status">In progress</div>
+      </div>
+      <div class="proj-body">
+        <p class="proj-desc">Merged and balanced a 600-row dataset sourced from three LLMs (Claude, Gemini, ChatGPT) to train a classifier distinguishing AI-generated from human-written project submissions.</p>
+        <div class="proj-specs">
+          <div class="proj-spec"><div class="label">Stack</div><div class="val">Python · Machine Learning · Data Engineering</div></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section id="Business">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-code">03</span>
+      <span class="sec-title" style="font-size:18px;">Business</span>
+      <span class="sec-sub">SIDE TRACK, NOT CORE FOCUS</span>
+    </div>
+    <div class="tag-card reveal" style="max-width:640px;">
+      <div class="tag-punch"><div class="tag-hole"></div></div>
+      <div class="tag-content" style="padding:22px 26px 22px 8px;">
+        <div class="tag-brand"><a href="https://www.linktree.com/wishend.company/" target="_blank" rel="noopener noreferrer">WISHEND</a></div>
+        <div class="tag-line" style="margin-bottom:12px;">Apparel · Bangladesh Market · Active</div>
+        <p class="tag-desc" style="font-size:13.5px;margin-bottom:14px;">An apparel brand I founded and run myself, alongside my engineering work. Order operations are active — served 58 customers over 3 months. The web storefront (built by me — see Projects) is currently offline; orders run through direct channels in the meantime.</p>
+        <div class="stack-list">
+          <span class="stack-chip">Founder</span>
+          <span class="stack-chip">Bangladesh market</span>
+          <span class="stack-chip">Active</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="blog">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-code">04</span>
+        <span class="sec-title">Blog</span>
+        <span class="sec-sub">4 POSTS PUBLISHED</span>
+      </div>
+      <div class="reveal">
+        <a class="post-card" href="blog/thesis-anomaly-detection.html">
+          <div class="post-card-cat">Thesis / Technical</div>
+          <div class="post-card-title">Teaching a Machine to Hear Tool Wear</div>
+          <div class="post-card-desc">How unsupervised anomaly detection catches CNC tool wear without a single labeled example.</div>
+          <div class="post-card-meta">~7 min read</div>
+        </a>
+        <a class="post-card" href="blog/career-journey.html">
+          <div class="post-card-cat">Career / Personal</div>
+          <div class="post-card-title">From Dhaka to Detection Systems</div>
+          <div class="post-card-desc">Why anomaly detection pulled me in, and why industrial AI in Japan is the target, not consumer software.</div>
+          <div class="post-card-meta">~4 min read</div>
+        </a>
+        <a class="post-card" href="blog/present-works.html">
+          <div class="post-card-cat">Present Work</div>
+          <div class="post-card-title">What I'm Building Right Now</div>
+          <div class="post-card-desc">A running log of the projects running alongside the thesis, and what shipping WISHEND actually taught me.</div>
+          <div class="post-card-meta">~4 min read</div>
+        </a>
+        <a class="post-card" href="blog/japan-dream.html">
+          <div class="post-card-cat">Personal / Dream</div>
+          <div class="post-card-title">Japan Dream</div>
+          <div class="post-card-desc">The specific reason industrial AI in Japan is the goal — and how everything I'm building points there.</div>
+          <div class="post-card-meta">~3 min read</div>
+        </a>
+      </div>
+      <div style="margin-top:8px;">
+        <a class="btn ghost" href="blog/index.html">View all posts →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-code">05</span>
+        <span class="sec-title">Contact</span>
+        <span class="sec-sub">GET IN TOUCH</span>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-cell">
+          <div class="label">Email</div>
+          <div class="value"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=inso.rawn@gmail.com" target="_blank" rel="noopener noreferrer">inso.rawn@gmail.com</a></div>
+        </div>
+        <div class="contact-cell">
+          <div class="label">Phone</div>
+          <div class="value"><a href="tel:+8801519603971">+880 1519-603971</a></div>
+        </div>
+        <div class="contact-cell">
+          <div class="label">GitHub</div>
+          <div class="value"><a href="https://github.com/rsf-rawnak/" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+        </div>
+        <div class="contact-cell">
+          <div class="label">LinkedIn</div>
+          <div class="value"><a href="https://www.linkedin.com/in/rsf-rawnak/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</div>
+        </div>
+        <div class="contact-cell">
+          <div class="label">Kaggle</div>
+          <div class="value"><a href="https://www.kaggle.com/rsfrawnak/" target="_blank" rel="noopener noreferrer">Kaggle</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <span>© 2026 Md Rawnak Shalahen Fahim</span>
+    <span>Built with HTML / CSS — no framework, zero build step</span>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+
+</body>
+</html>
